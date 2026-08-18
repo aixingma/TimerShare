@@ -1,0 +1,36 @@
+User-agent: *
+Allow: /
+
+# Google
+User-agent: Googlebot
+Allow: /
+
+# Bing
+User-agent: Bingbot
+Allow: /
+
+# Yahoo
+User-agent: Slurp
+Allow: /
+
+# DuckDuckGo
+User-agent: DuckDuckBot
+Allow: /
+
+# Baidu (百度)
+User-agent: Baiduspider
+Allow: /
+
+# Yandex
+User-agent: YandexBot
+Allow: /
+
+# Sogou (搜狗)
+User-agent: Sogou web spider
+Allow: /
+
+# 360 (360搜索)
+User-agent: 360Spider
+Allow: /
+
+Sitemap: https://kixtools.com/sitemap.xml
