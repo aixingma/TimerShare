@@ -6,7 +6,6 @@
 ![License](https://img.shields.io/badge/License-GPL%20v3.0-blue?style=flat-square)
 
 **演示站:** [https://timer.kixtools.com/](https://timer.kixtools.com/)
-**GitHub:** [https://github.com/aixingma/TimerShare](https://github.com/aixingma/TimerShare)
 
 ## 项目概述
 
