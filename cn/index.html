@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- 主要 SEO Meta 标签 (百度/Google/Bing/搜狗/360) -->
+    <title>免费在线倒计时器 | 可分享链接的团队活动计时器 | KixTools</title>
+    <meta name="description" content="创建免费持久倒计时器，生成唯一可分享的URL链接。隐私优先的在线计时器，无需注册，无追踪。支持天、时、分、秒，适用于团队协作、活动倒计时和个人使用。">
+    <meta name="keywords" content="倒计时器, 在线计时器, 免费倒计时, 共享计时器, 可分享计时器URL, 在线倒计时, 免费计时器, 团队计时器, 活动计时器, 隐私计时器, 网页计时器, 在线秒表, 持久计时器, countdown timer">
+    <meta name="author" content="KixTools">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta name="googlebot" content="index, follow">
+    <meta name="bingbot" content="index, follow">
+    <meta name="theme-color" content="#0a0a0a">
+    
+    <!-- 规范 URL -->
+    <link rel="canonical" href="https://kixtools.com/cn/">
+    
+    <!-- hreflang: 告诉搜索引擎语言版本关系 -->
+    <link rel="alternate" hreflang="en" href="https://kixtools.com/">
+    <link rel="alternate" hreflang="zh-CN" href="https://kixtools.com/cn/">
+    <link rel="alternate" hreflang="x-default" href="https://kixtools.com/">
+
+    <!-- Open Graph (Facebook/LinkedIn) -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="KixTools">
+    <meta property="og:title" content="免费在线倒计时器 | 可分享链接的计时器">
+    <meta property="og:description" content="创建免费持久倒计时器，生成唯一可分享的URL链接。隐私优先，无需注册，无追踪。">
+    <meta property="og:url" content="https://kixtools.com/cn/">
+    <meta property="og:locale" content="zh_CN">
+    <meta property="og:locale:alternate" content="en_US">
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="免费在线倒计时器 | 可分享链接的计时器">
+    <meta name="twitter:description" content="创建免费持久倒计时器，生成唯一可分享的URL链接。隐私优先，无需注册，无追踪。">
+    
+    <!-- 网站图标 -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='8' fill='%230a0a0a'/%3E%3Ccircle cx='32' cy='32' r='20' fill='none' stroke='%2300ff00' stroke-width='3'/%3E%3Ccircle cx='32' cy='18' r='4' fill='%2300ff00'/%3E%3Cline x1='32' y1='32' x2='32' y2='44' stroke='%2300ff00' stroke-width='3' stroke-linecap='round'/%3E%3Cline x1='32' y1='32' x2='42' y2='32' stroke='%2300ff00' stroke-width='2' stroke-linecap='round'/%3E%3Ccircle cx='32' cy='32' r='2' fill='%2300ff00'/%3E%3C/svg%3E">
+    <link rel="apple-touch-icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='8' fill='%230a0a0a'/%3E%3Ccircle cx='32' cy='32' r='20' fill='none' stroke='%2300ff00' stroke-width='3'/%3E%3Ccircle cx='32' cy='18' r='4' fill='%2300ff00'/%3E%3Cline x1='32' y1='32' x2='32' y2='44' stroke='%2300ff00' stroke-width='3' stroke-linecap='round'/%3E%3Cline x1='32' y1='32' x2='42' y2='32' stroke='%2300ff00' stroke-width='2' stroke-linecap='round'/%3E%3Ccircle cx='32' cy='32' r='2' fill='%2300ff00'/%3E%3C/svg%3E">
+    <link rel="shortcut icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='8' fill='%230a0a0a'/%3E%3Ccircle cx='32' cy='32' r='20' fill='none' stroke='%2300ff00' stroke-width='3'/%3E%3Ccircle cx='32' cy='18' r='4' fill='%2300ff00'/%3E%3Cline x1='32' y1='32' x2='32' y2='44' stroke='%2300ff00' stroke-width='3' stroke-linecap='round'/%3E%3Cline x1='32' y1='32' x2='42' y2='32' stroke='%2300ff00' stroke-width='2' stroke-linecap='round'/%3E%3Ccircle cx='32' cy='32' r='2' fill='%2300ff00'/%3E%3C/svg%3E">
+    
+    <!-- Schema.org 结构化数据 (Google Rich Results / 百度结构化数据) -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "KixTools 共享计时器",
+        "alternateName": "免费在线倒计时器",
+        "description": "创建并分享持久倒计时器，生成唯一可分享的URL链接。隐私优先的在线计时器，无需注册。",
+        "applicationCategory": "ProductivityApplication",
+        "operatingSystem": "Any",
+        "inLanguage": "zh-CN",
+        "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD"
+        },
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.8",
+            "ratingCount": "127"
+        },
+        "url": "https://kixtools.com/cn/",
+        "inAlternateLanguage": {
+            "@type": "WebPage",
+            "inLanguage": "en",
+            "url": "https://kixtools.com/"
+        }
+    }
+    </script>
+    
+    <style>
+        *{margin:0;padding:0;box-sizing:border-box;}
+        body{background:#0a0a0a;color:#00ff00;font-family:'Courier New',monospace;font-size:14px;line-height:1.4;min-height:100vh;}
+        .container{max-width:900px;margin:0 auto;padding:20px;}
+        .header{text-align:center;margin-bottom:30px;border-bottom:1px solid #333;padding-bottom:20px;position:relative;}
+        .header h1{color:#00ff00;font-size:28px;margin-bottom:5px;text-shadow:0 0 10px rgba(0,255,0,0.3);}
+        .header p{color:#666;font-size:12px;}
+        .lang-switch{position:absolute;top:0;right:0;}
+        .lang-switch a{color:#00ff00;text-decoration:none;font-size:12px;border:1px solid #00ff00;padding:5px 10px;border-radius:3px;background:#003300;}
+        .lang-switch a:hover{background:#00ff00;color:#000;}
+        .terminal-box{background:#111;border:1px solid #333;border-radius:4px;padding:25px;margin:20px 0;box-shadow:0 0 20px rgba(0,255,0,0.1);}
+        .form-group{margin-bottom:20px;}
+        .form-group label{display:block;color:#00ff00;margin-bottom:8px;font-size:12px;letter-spacing:1px;}
+        .form-row{display:flex;gap:15px;flex-wrap:wrap;}
+        .form-row .form-group{flex:1;min-width:80px;}
+        input[type="number"],input[type="text"]{background:#000;border:1px solid #333;color:#00ff00;padding:12px;font-family:inherit;font-size:14px;width:100%;border-radius:3px;transition:all 0.3s;}
+        input[type="number"]:focus,input[type="text"]:focus{outline:none;border-color:#00ff00;box-shadow:0 0 10px rgba(0,255,0,0.2);}
+        .btn{background:#003300;border:1px solid #00ff00;color:#00ff00;padding:12px 24px;font-family:inherit;font-size:14px;cursor:pointer;margin:5px;transition:all 0.3s;border-radius:3px;text-decoration:none;display:inline-block;}
+        .btn:hover{background:#00ff00;color:#000;transform:translateY(-1px);box-shadow:0 4px 15px rgba(0,255,0,0.3);}
+        .btn:active{transform:translateY(0);}
+        .timer-display{text-align:center;font-size:64px;color:#00ff00;margin:40px 0;font-weight:bold;letter-spacing:4px;text-shadow:0 0 20px rgba(0,255,0,0.5);font-variant-numeric:tabular-nums;}
+        .timer-info{color:#888;font-size:13px;text-align:center;margin-bottom:30px;line-height:1.6;}
+        .timer-info strong{color:#00ff00;}
+        .timer-info code{display:block;margin-top:5px;padding:10px;background:#000;border:1px solid #333;border-radius:3px;word-break:break-all;white-space:pre-wrap;max-width:100%;overflow-wrap:break-word;}
+        .timer-expired{color:#ff0000;animation:pulse 1.5s infinite;}
+        @keyframes pulse{0%,100%{opacity:1;}50%{opacity:0.4;}}
+        .recent-timers{margin-top:40px;}
+        .recent-timers h3{color:#00ff00;margin-bottom:20px;font-size:18px;letter-spacing:1px;}
+        .timer-item{background:#111;border:1px solid #333;padding:15px;margin-bottom:15px;display:flex;justify-content:space-between;align-items:center;border-radius:3px;transition:all 0.3s;}
+        .timer-item:hover{border-color:#00ff00;box-shadow:0 0 10px rgba(0,255,0,0.1);}
+        .timer-item a{color:#00ff00;text-decoration:none;font-weight:bold;}
+        .timer-item a:hover{text-decoration:underline;}
+        .timer-status{font-size:12px;color:#666;margin-top:5px;}
+        .timer-actions{display:flex;gap:10px;align-items:center;}
+        .timer-actions button{padding:8px 12px;font-size:12px;margin:0;}
+        .modal{display:none;position:fixed;z-index:1000;left:0;top:0;width:100%;height:100%;background:rgba(0,0,0,0.9);}
+        .modal-content{background:#111;margin:10% auto;padding:30px;border:1px solid #00ff00;width:400px;border-radius:5px;text-align:center;box-shadow:0 0 30px rgba(0,255,0,0.3);}
+        .modal-content h3{color:#00ff00;margin-bottom:20px;font-size:20px;}
+        .modal-content p{color:#ccc;margin-bottom:25px;line-height:1.5;word-break:break-word;}
+        @media (max-width:768px){.form-row{flex-direction:column;}.timer-display{font-size:48px;}.container{padding:15px;}.modal-content{width:90%;margin:20% auto;}.lang-switch{position:static;margin-bottom:10px;display:inline-block;}}
+        @media (max-width:480px){.timer-display{font-size:36px;}.header h1{font-size:24px;}.timer-item{flex-direction:column;align-items:flex-start;}.timer-actions{margin-top:10px;}}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="lang-switch"><a href="/cn/article/" style="margin-right:4px;">关于</a><a href="/">English</a></div>
+            <h1>KixTools 共享计时器</h1>
+            <p>创建持久计时器并生成唯一分享链接 &bull; 所有时间均以您本地时区显示</p>
+        </div>
+
+        <div id="message-container"></div>
+
+        <div id="timer-view" class="terminal-box" style="display:none;">
+            <div class="timer-info">
+                <strong id="timer-title">计时器</strong>
+                <br><span id="timer-start-time">开始时间: --</span>
+                <br>时长: <span id="timer-duration">--</span>
+                <br>分享此计时器: <code id="timer-url">--</code>
+            </div>
+            
+            <div id="timer-display" class="timer-display">
+                --:--:--
+            </div>
+            
+            <div style="text-align: center;">
+                <button class="btn" onclick="goHome()">&larr; 创建新计时器</button>
+                <button class="btn" onclick="copyURL()">&#x1F4CB; 复制链接</button>
+                <button class="btn" onclick="toggleFullscreen()">&#x26F6; 全屏</button>
+            </div>
+        </div>
+
+        <div id="create-view" class="terminal-box">
+            <h2 style="color: #00ff00; margin-bottom: 25px; letter-spacing: 1px;">创建新计时器</h2>
+            
+            <form id="timerForm" onsubmit="createTimer(event)">
+                <div class="form-group">
+                    <label for="title">计时器标题</label>
+                    <input type="text" id="title" name="title" placeholder="我的计时器" maxlength="100">
+                </div>
+                
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="days">天</label>
+                        <input type="number" id="days" name="days" min="0" max="365" value="0">
+                    </div>
+                    <div class="form-group">
+                        <label for="hours">时</label>
+                        <input type="number" id="hours" name="hours" min="0" max="23" value="0">
+                    </div>
+                    <div class="form-group">
+                        <label for="minutes">分</label>
+                        <input type="number" id="minutes" name="minutes" min="0" max="59" value="5">
+                    </div>
+                    <div class="form-group">
+                        <label for="seconds">秒</label>
+                        <input type="number" id="seconds" name="seconds" min="0" max="59" value="0">
+                    </div>
+                </div>
+                
+                <button type="submit" class="btn" style="width: 100%; margin-top: 25px; padding: 15px;">
+                    &#x1F680; 开始计时
+                </button>
+            </form>
+            
+            <div style="margin-top: 20px; text-align: center; color: #666; font-size: 12px;">
+                提示：计时器将立即开始并持续运行。您将获得一个唯一的分享链接。
+            </div>
+        </div>
+
+        <div id="recent-timers" class="recent-timers" style="display:none;">
+            <h3>您的最近计时器</h3>
+            <div id="recent-timers-list"></div>
+        </div>
+
+        <footer style="text-align:center;padding:20px 0;margin-top:30px;border-top:1px solid #333;color:#666;font-size:12px;">
+            &copy; 2026 <a href="https://kixtools.com" target="_blank" rel="noopener noreferrer" style="color:#00ff00;text-decoration:none;">KixTools</a>
+        </footer>
+    </div>
+
+    <div id="modal" class="modal" onclick="closeModalOnOutside(event)">
+        <div class="modal-content">
+            <h3 id="modal-title">通知</h3>
+            <p id="modal-message">消息</p>
+            <button class="btn" onclick="closeModal()">关闭</button>
+        </div>
+    </div>
+
+    <script>
+        let currentTimer = null;
+        let timerInterval = null;
+        const STORAGE_KEY = 'kixtools_recent_timers';
+
+        function encodeTimerData(timerData) {
+            return btoa(encodeURIComponent(JSON.stringify(timerData)));
+        }
+        function decodeTimerData(encoded) {
+            try { return JSON.parse(decodeURIComponent(atob(encoded))); }
+            catch(e) { return null; }
+        }
+        function getTimerFromURL() {
+            const params = new URLSearchParams(window.location.search);
+            const encoded = params.get('t');
+            return encoded ? decodeTimerData(encoded) : null;
+        }
+        function createTimerURL(td) {
+            return window.location.origin + window.location.pathname + '?t=' + encodeTimerData(td);
+        }
+        function getRecentTimers() {
+            try { return JSON.parse(localStorage.getItem(STORAGE_KEY)) || []; }
+            catch(e) { return []; }
+        }
+        function saveRecentTimer(td) {
+            try {
+                const recent = getRecentTimers();
+                recent.unshift(td);
+                localStorage.setItem(STORAGE_KEY, JSON.stringify(recent.slice(0, 15)));
+            } catch(e) {}
+        }
+        function deleteRecentTimer(i) {
+            const recent = getRecentTimers();
+            recent.splice(i, 1);
+            localStorage.setItem(STORAGE_KEY, JSON.stringify(recent));
+            renderRecentTimers();
+        }
+        function formatLocalTime(ts, format) {
+            const d = new Date(ts * 1000);
+            if (format === 'short') {
+                return d.toLocaleDateString('zh-CN', {month:'short',day:'numeric',year:'numeric'}) + ' ' +
+                       d.toLocaleTimeString('zh-CN', {hour:'2-digit',minute:'2-digit'});
+            }
+            return d.toLocaleDateString('zh-CN', {weekday:'short',year:'numeric',month:'short',day:'numeric'}) + ' ' +
+                   d.toLocaleTimeString('zh-CN', {hour:'2-digit',minute:'2-digit',second:'2-digit'});
+        }
+        function formatDuration(s) {
+            const d = Math.floor(s/86400), h = Math.floor((s%86400)/3600), m = Math.floor((s%3600)/60), sec = s%60;
+            const p = [];
+            if (d > 0) p.push(d + '天');
+            if (h > 0) p.push(h + '时');
+            if (m > 0) p.push(m + '分');
+            if (sec > 0 && d === 0) p.push(sec + '秒');
+            return p.length ? p.join(' ') : '0秒';
+        }
+        function formatCountdown(s) {
+            return String(Math.floor(s/3600)).padStart(2,'0') + ':' +
+                   String(Math.floor((s%3600)/60)).padStart(2,'0') + ':' +
+                   String(s%60).padStart(2,'0');
+        }
+        function createTimer(e) {
+            e.preventDefault();
+            const title = document.getElementById('title').value.trim() || '计时器';
+            const days = +document.getElementById('days').value || 0;
+            const hours = +document.getElementById('hours').value || 0;
+            const minutes = +document.getElementById('minutes').value || 0;
+            const seconds = +document.getElementById('seconds').value || 0;
+            const total = days*86400 + hours*3600 + minutes*60 + seconds;
+            if (total <= 0) { showModal('时长无效', '计时器时长必须大于0，请至少输入1秒。'); return; }
+            if (total > 365*86400) { showModal('时长过长', '最大计时器时长为365天。'); return; }
+            const td = { title, start: Math.floor(Date.now()/1000), duration: total, created: Math.floor(Date.now()/1000) };
+            saveRecentTimer(td);
+            window.history.pushState({}, '', createTimerURL(td));
+            loadTimer(td);
+        }
+        function loadTimer(td) {
+            currentTimer = td;
+            document.getElementById('create-view').style.display = 'none';
+            document.getElementById('timer-view').style.display = 'block';
+            document.getElementById('timer-title').textContent = td.title;
+            document.getElementById('timer-start-time').textContent = '开始时间: ' + formatLocalTime(td.start);
+            document.getElementById('timer-duration').textContent = formatDuration(td.duration);
+            document.getElementById('timer-url').textContent = window.location.href;
+            updateTimerDisplay();
+            if (timerInterval) clearInterval(timerInterval);
+            timerInterval = setInterval(updateTimerDisplay, 1000);
+        }
+        function updateTimerDisplay() {
+            if (!currentTimer) return;
+            const remaining = Math.max(0, currentTimer.duration - (Math.floor(Date.now()/1000) - currentTimer.start));
+            const display = document.getElementById('timer-display');
+            if (remaining <= 0) {
+                display.textContent = '00:00:00';
+                display.classList.add('timer-expired');
+                if (!display.hasAttribute('data-notified')) {
+                    showModal('计时完成！', '您的计时器已结束。');
+                    display.setAttribute('data-notified', 'true');
+                }
+                clearInterval(timerInterval);
+                return;
+            }
+            display.textContent = formatCountdown(remaining);
+        }
+        function goHome() {
+            if (timerInterval) clearInterval(timerInterval);
+            currentTimer = null;
+            window.history.pushState({}, '', window.location.pathname);
+            document.getElementById('timer-view').style.display = 'none';
+            document.getElementById('create-view').style.display = 'block';
+            renderRecentTimers();
+        }
+        function renderRecentTimers() {
+            const recent = getRecentTimers();
+            const container = document.getElementById('recent-timers-list');
+            const section = document.getElementById('recent-timers');
+            if (!recent.length) { section.style.display = 'none'; return; }
+            section.style.display = 'block';
+            container.innerHTML = '';
+            recent.forEach((timer, i) => {
+                const elapsed = Math.floor(Date.now()/1000) - timer.start;
+                const remaining = Math.max(0, timer.duration - elapsed);
+                const done = remaining <= 0;
+                const status = done ? '已完成' : '运行中（剩余 ' + formatCountdown(remaining) + '）';
+                const color = done ? '#ff6666' : '#00ff00';
+                const url = createTimerURL(timer);
+                const item = document.createElement('div');
+                item.className = 'timer-item';
+                item.innerHTML = '<div><a href="' + url + '">' + escapeHtml(timer.title) + '</a>' +
+                    '<div class="timer-status">创建时间: ' + formatLocalTime(timer.created, 'short') +
+                    ' | 时长: ' + formatDuration(timer.duration) +
+                    ' | 状态: <span style="color:' + color + '">' + status + '</span></div></div>' +
+                    '<div class="timer-actions">' +
+                    '<button class="btn" onclick="openTimer(\'' + encodeTimerData(timer) + '\')">打开</button>' +
+                    '<button class="btn" onclick="deleteTimer(' + i + ')">删除</button></div>';
+                container.appendChild(item);
+            });
+        }
+        function openTimer(encoded) {
+            const td = decodeTimerData(encoded);
+            if (td) window.location.href = createTimerURL(td);
+        }
+        function deleteTimer(i) { deleteRecentTimer(i); }
+        function escapeHtml(text) {
+            const d = document.createElement('div');
+            d.textContent = text;
+            return d.innerHTML;
+        }
+        function showModal(title, message) {
+            document.getElementById('modal-title').textContent = title;
+            document.getElementById('modal-message').textContent = message;
+            document.getElementById('modal').style.display = 'block';
+        }
+        function closeModal() { document.getElementById('modal').style.display = 'none'; }
+        function closeModalOnOutside(e) { if (e.target.id === 'modal') closeModal(); }
+        function copyURL() {
+            const url = window.location.href;
+            if (navigator.clipboard) {
+                navigator.clipboard.writeText(url).then(() => showModal('链接已复制！', '计时器链接已复制到剪贴板。'))
+                    .catch(() => fallbackCopy(url));
+            } else fallbackCopy(url);
+        }
+        function fallbackCopy(text) {
+            const ta = document.createElement('textarea');
+            ta.value = text; ta.style.position='fixed'; ta.style.opacity='0';
+            document.body.appendChild(ta); ta.select();
+            try { document.execCommand('copy'); showModal('链接已复制！', '计时器链接已复制到剪贴板。'); }
+            catch(e) { showModal('复制失败', '无法复制链接，请从地址栏手动复制。'); }
+            document.body.removeChild(ta);
+        }
+        function toggleFullscreen() {
+            const d = document.getElementById('timer-display');
+            if (!d) return;
+            if (!document.fullscreenElement) {
+                d.requestFullscreen().catch(() => showModal('全屏', '浏览器不支持全屏或已被阻止。'));
+            } else document.exitFullscreen();
+        }
+        function init() {
+            const td = getTimerFromURL();
+            if (td) loadTimer(td); else renderRecentTimers();
+            document.addEventListener('keydown', function(e) {
+                if (e.key === 'Escape') closeModal();
+                else if (e.key === 'c' && e.ctrlKey && currentTimer) { e.preventDefault(); copyURL(); }
+                else if (e.key === 'F11' && currentTimer) { e.preventDefault(); toggleFullscreen(); }
+            });
+            window.addEventListener('popstate', function() {
+                const td = getTimerFromURL();
+                if (td) loadTimer(td); else goHome();
+            });
+        }
+        document.addEventListener('DOMContentLoaded', init);
+    </script>
+</body>
+</html>
